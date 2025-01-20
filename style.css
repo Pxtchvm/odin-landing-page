@@ -1,68 +1,139 @@
 body {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    min-height: 100vh;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container img {
+  border: 5px solid #3882F6;
+  border-radius: 12px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+}
+
+.header_links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header_content {
+  background-color: #1F2937;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  padding: 20px 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 256px;
+  text-align: center;
+}
+
+.text {
+  margin-top: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  gap: 50px;
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.scuffed {
+  width: 500px;
+}
+
+.header_content_image {
+  width: 500px;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 32px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .hero_main_text {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
 }
 
 .hero_secondary_text {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .header_logo_text {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+  
 }
 
 button {
-    background-color: #3882F6;
+  background-color: #3882F6;
+  padding: 8px 32px;
+  border-radius: 12px;
+  border-style: none;
 }
 
 .title {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
 }
 
 .quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
 }
 
 .call_to_action_text {
-    color: white;
-    font-weight: 900;
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
 .header,
-.footer,
-.header_content {
-    background-color: #1F2937;
-    padding: 32px 200px;
+.footer {
+  background-color: #1F2937;
 }
