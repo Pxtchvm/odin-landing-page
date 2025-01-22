@@ -171,3 +171,10 @@ button {
   color: #F9FAF8;
   font-weight: 500;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
