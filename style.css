@@ -38,6 +38,7 @@ button {
   justify-content: space-between;
   align-items: baseline;
   padding: 32px 15%;
+  gap: 32px;
 }
 
 .header_bottom {
@@ -167,7 +168,7 @@ button {
 }
 
 .call_to_action_main_text {
-  font-size: 24px;
+  font-size: 28px;
   color: #F9FAF8;
   font-weight: 500;
 }
