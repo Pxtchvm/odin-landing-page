@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto';
   margin: 0;
   min-height: 100vh;
 }
@@ -115,4 +115,27 @@ button {
   text-align: center;
   font-size: 18px;
   color: #1F2937;
+}
+
+.quote_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 30%;
+  background-color: #E5E7EB;
+  gap: 16px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.quote_author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 500;
 }
